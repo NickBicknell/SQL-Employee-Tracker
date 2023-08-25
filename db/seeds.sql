@@ -1,3 +1,4 @@
+-- values to be seeded into department
 INSERT INTO department (name)
 VALUES  ("Marketing"),
         ("Sales"),
@@ -5,6 +6,7 @@ VALUES  ("Marketing"),
         ("Accounting"),
         ("Human Resources");
 
+-- values to be seeded into role
 INSERT INTO role (title, salary, department_id)
 VALUES  ("Sales Representative", 120000, 2),
         ("Sales Manager", 180000, 2),
@@ -21,6 +23,7 @@ VALUES  ("Sales Representative", 120000, 2),
         ("HR Assistant", 75000, 5),
         ("HR Manager", 100000, 5);
 
+values to be seeded into employee
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Beth", "Davila", 4, null),
         ("Deacon", "Cline", 2, null),
